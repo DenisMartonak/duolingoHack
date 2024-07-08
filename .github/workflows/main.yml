@@ -10,4 +10,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Reveal secret
-        run: echo "The secret is: ${{ secrets.DUOLINGO_JWT }}"
+        run: echo secrets.DUOLINGO_JWT
